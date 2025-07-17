@@ -6,7 +6,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 let userMessage = null; // Variable to store user's message
 const inputInitHeight = chatInput.scrollHeight;
 // API configuration
-const API_KEY = "AIzaSyBZQmEJaasJBq_YqSI2z7PrBZazSd0CwTk"; // Your API key here
+const API_KEY = "AIzaSyBJ-NDK1ctHe8yR1z1OUSC8bgCJdDk4KA0"; // Your API key here
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${API_KEY}`;
 const createChatLi = (message, className) => {
     // Create a chat <li> element with passed message and className
